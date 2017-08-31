@@ -1,0 +1,103 @@
+extends layout
+
+block content
+  header
+        h1#bj - Bree Jackson -
+        h1#titles
+          span.header
+      nav
+        p
+          a(href='#aboutSection') About
+        p
+          a(href='#projects') Apps
+        p
+          a(href='#skills') Skills
+        p
+          a(href='#contact') Contact
+  section#aboutSection
+      h2 About Bree
+      .aboutDivandImage
+        .aboutDiv
+          p.about Hello and welcome to my portfolio! My name is Bree Jackson, and I am a Junior Full Stack Developer. After spending years crafting, painting, and woodworking on my own time, all the while seeing the tool that coding was, I decided to give building via code a try. Oh how rewarding it has been!! I have spent 3 months in intensive training at The Iron Yard, and have learned a lot- but I need to learn more! Though I am spending my time in Node.js right now, I look forward to the opportunity to learning Ruby, React, and whatever else comes my way in the future.
+          p.about When set with a task I work as hard as I can to find a solution. Unafraid to ask for help, I thrive in the ability to work in small teams where ideas can be bounced around and made real. As long as coffee is involved, I will always find the energy to keep on going.
+          p.about I look forward to meeting you!
+        img(src='images/pic-of-Bree.jpg', alt='')
+  section#quote
+      //
+        <p>Do you mind if I tell you a story? One you might not have heard. All the elements in your body were forged many many millions of years ago in the heart of a faraway star that exploded and died. That explosion scattered those elements across the desolations of deep space. After so, so many millions of years, these elements came together to form new stars and new planets. And on and on it went. The elements came together and burst apart, forming shoes and ships and sealing wax and cabbages and kings. Until, eventually, they came together to make you. You are unique in the universe. There is only one of you- and there will never be another. </p>
+            <h6>Doctor Who- The Rings of Akhaten</h6>          
+  section#projects.projects
+    h2 Apps by Bree
+    h3 placeholder
+    .projectExamples
+      a.projectExamples(href='#')
+        img(src='images/hufflepuff.jpg', alt='')
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+    h3 Collection Manager- Harry Potter Style
+    .projectExamples
+      a.projectExamples(href='https://github.com/BreeJax/collection_manager')
+        img(src='images/HPapp.jpg', alt='')
+      .appInfo
+        p We had a little too much fun with this project. Many liberties were taken, but this app is a way to manage a collection- this app is driven twords managing Harry Potter Characters, but it can be changed for anything.
+        p The Front End was made with Mustache for the HTML, while the back end was created using Mongoose(mongoDB), express in Node.JS
+    .projectExamples
+      a.projectExamples(href='#')
+        img(src='images/hufflepuff.jpg', alt='')
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+    .projectExamples
+      a.projectExamples(href='#')
+        img(src='images/hufflepuff.jpg', alt='')
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+  section#skills
+    h2 Skills
+    section#skillsIcons
+      .iconDiv
+        img.icons(src='images/css3.png', alt='CSS 3 logo')
+        .skillsNamesDivs
+          p.skillsNames CSS
+      .iconDiv
+        img.icons(src='images/html5.png', alt='HTML 5 logo')
+        .skillsNamesDivs
+          p.skillsNames HTML
+      .iconDiv
+        img.icons(src='images/javascript.png', alt='JavaScript logo')
+        .skillsNamesDivs
+          p.skillsNames JavaScript
+      .iconDiv
+        img.icons(src='images/node_js.png', alt='Node.js logo')
+        .skillsNamesDivs
+          p.skillsNames Node.js
+      .iconDiv
+        img.icons(src='images/mongodb.png', alt='Mongo Database logo')
+        .skillsNamesDivs
+          p.skillsNames MongoDB
+      .iconDiv
+        img.icons(src='images/pug.png', alt="Pug Logo")
+        .skillsNamesDivs
+            p.skillsNames Pug
+      .iconDiv
+        img.icons(src="images/expressjs.png", alt="expressjs logo")
+        .skillsNamesDivs
+          p.skillsNames ExpressJS
+      .iconDiv
+        img.icons(src="images/postgres.png", alt="postgres logo")
+        .skillsNamesDivs
+          p.skillsNames Postgres
+          
+  h2#feelFree Feel Free to Contact me at:
+  .navigation#contact
+    p
+      a(href='tel:1-727-614-1770')
+        img.logos(src='images/phone.png', alt="Bree's phone number is 727-614-1770")
+    p
+      a(href='https://github.com/BreeJax', target='_blank')
+        img.logos(src='images/github.png', alt="link to Bree's Github")
+    p
+      a(href='mailto:bjacksonsisterwolf@gmial.com?subject=Lets%20Grab%20coffee%20and%20talk%20code!')
+        img.logos(src='images/email.png', alt="link to email Bree")
+    p
+      a(href='https://www.linkedin.com/in/breejax/', target='_blank')
+        img.logos(src='images/linkedin.png', alt="link to Bree's linkedIn")
+    p
+      a(href='https://www.linkedin.com/in/breejax/', target='_blank')
+        img.logos(src='images/linkedin.png', alt="link to Bree's linkedIn")
