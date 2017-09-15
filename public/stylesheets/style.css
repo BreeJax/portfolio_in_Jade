@@ -1,7 +1,7 @@
 body {
   background-color: #b085f5;
   text-align: center;
-  font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -120,6 +120,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-self: center;
 }
 
 /*projects*/
@@ -151,7 +152,7 @@ header {
   border-radius: 30px;
 }
 .projectExamples > img:hover {
-  border: 0.25em solid rgba(134, 40, 147, 0.50);
+  border: 0.25em solid rgba(134, 40, 147, 0.5);
   opacity: 0.5;
 }
 /*skills*/
@@ -165,11 +166,11 @@ header {
   margin: 0 0.25em;
   opacity: 1;
   display: block;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 .skillsNamesDivs {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
