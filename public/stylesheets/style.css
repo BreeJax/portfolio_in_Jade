@@ -282,4 +282,8 @@ header {
     padding-bottom: 0;
     margin-bottom: 0;
   }
+  .projectExamples > img:active {
+    border: 0.25em solid rgba(134, 40, 147, 0.5);
+    opacity: 0.5;
+  }
 }
