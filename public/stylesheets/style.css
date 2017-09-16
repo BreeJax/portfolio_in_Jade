@@ -138,8 +138,8 @@ header {
 }
 
 .projects > div > img {
-  width: 14em;
-  height: 14em;
+  width: 16.5em;
+  height: 16.5em;
   border: 0.25em solid black;
   margin: 1em;
   border-radius: 30px;
@@ -161,8 +161,8 @@ header {
 }
 
 .icons {
-  width: 5em;
-  height: 6em;
+  width: 7em;
+  height: 8em;
   margin: 0 0.2em;
   opacity: 1;
   display: block;
@@ -285,5 +285,9 @@ header {
   .projectExamples > img:focus {
     border: 0.25em solid rgba(134, 40, 147, 0.5);
     opacity: 0.5;
+  }
+  .icons {
+    width: 5em;
+    height: 6em;
   }
 }
