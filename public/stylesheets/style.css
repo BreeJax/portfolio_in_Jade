@@ -298,4 +298,7 @@ header {
     background-color: black;
     margin: 1em;
   }
+  .iconDiv:focus .skillsNamesDivs {
+    opacity: 1;
+  }
 }
