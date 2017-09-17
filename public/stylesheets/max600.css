@@ -86,13 +86,13 @@
     align-self: center;
   }
   .about {
-    padding: 0 0.75em;
+    padding: 0 0.25em;
   }
   #quote {
     background-image: url(../images/purple-sunrise.jpg);
     color: darkgray;
     text-align: center;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +207,7 @@
   .logos {
     width: 3em;
     height: 3em;
-    padding: 0.5em 1em;
+    padding: 0.25em 5em;
   }
 
   #contact {
