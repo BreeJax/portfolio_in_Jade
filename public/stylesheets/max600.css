@@ -100,7 +100,7 @@
     padding: 3em;
     font-size: 1.5em;
     text-shadow: 5px 5px 8px black;
-    height: 5em;
+    height: auto;
   }
 
   /*projects*/
