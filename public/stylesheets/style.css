@@ -5,18 +5,26 @@ body {
   padding: 0;
   margin: 0;
 }
-h2 {
-  text-transform: uppercase;
-  width: 100%;
-  font-size: 3em;
-  margin: 0.25em 0;
-  padding-top: 1em;
-}
-p {
-  font-size: 1.25em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (min-width: 1051px) {
+  h2 {
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 3em;
+    margin: 0.25em 0;
+    padding-top: 1em;
+  }
+  p {
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #aboutSection > div {
+    padding: 0 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 nav {
@@ -86,12 +94,6 @@ header {
   /*background-color: #bbb5c3;*/
   /*color: #ede7f6;*/
   padding: 1em 0 1em 0;
-}
-#aboutSection > div {
-  padding: 0 3em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 #aboutSection > div > img {
