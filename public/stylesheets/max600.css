@@ -202,7 +202,7 @@
   }
   /*bottom section*/
   #feelFree {
-    font-size: 1.15em;
+    font-size: 1.55em;
     padding-bottom: 0;
     margin-bottom: 0;
   }
@@ -213,8 +213,18 @@
   }
 
   #contact {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .away {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+  .information {
     display: flex;
     flex-direction: row;
-    justify-content: center;
   }
 }

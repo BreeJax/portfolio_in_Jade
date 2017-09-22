@@ -215,15 +215,39 @@ header {
 /*bottom section*/
 #feelFree {
   font-size: 2.25em;
+  width: 100%;
 }
 .logos {
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
   padding: 0.5em 1em;
 }
 
 #contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*#contact > p {
+  margin: 0.2em;
+}
+#contact > p > a {
+  margin: 0.2em;
+}*/
+
+.lg {
+  height: 3em;
+  margin: 0.2em;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
 }
+/*.lg > p {
+  display: none;
+}*/
+/*.lg > a {
+  font-size: 1.2em;
+}*/
