@@ -25,227 +25,227 @@ body {
     flex-direction: row;
     align-items: center;
   }
-}
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: rgba(77, 43, 145, 0.75);
-  margin: 0;
-  font-size: 1.25em;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-nav > p {
-  padding: 0 0.5em;
-  margin: 0.25em;
-}
-a:hover {
-  color: #b085f5;
-}
-a {
-  color: black;
-}
-/*Header*/
-#bj {
-  font-size: 4em;
-  text-transform: uppercase;
-}
-.header:after {
-  content: "Junior Full Stack Developer";
-  animation: change 15s infinite;
-}
-@keyframes change {
-  10% {
-    content: "Junior Full Stack Developer ";
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(77, 43, 145, 0.75);
+    margin: 0;
+    font-size: 1.25em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
-  25% {
-    content: "Junior Node Developer ";
+  nav > p {
+    padding: 0 0.5em;
+    margin: 0.25em;
   }
-  50% {
-    content: "Junior JavaScript Developer ";
+  a:hover {
+    color: #b085f5;
   }
-  75% {
-    content: "Lifelong Student ";
+  a {
+    color: black;
   }
-  100% {
-    content: "Coffee Addict ";
+  /*Header*/
+  #bj {
+    font-size: 4em;
+    text-transform: uppercase;
   }
-}
-header {
-  background-image: url(../images/coffee-and-computer.jpeg);
-  color: black;
-  text-align: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  font-size: 1.5em;
-  text-shadow: 2px 2px 8px #b085f5;
-}
-/*About*/
+  .header:after {
+    content: "Junior Full Stack Developer";
+    animation: change 15s infinite;
+  }
+  @keyframes change {
+    10% {
+      content: "Junior Full Stack Developer ";
+    }
+    25% {
+      content: "Junior Node Developer ";
+    }
+    50% {
+      content: "Junior JavaScript Developer ";
+    }
+    75% {
+      content: "Lifelong Student ";
+    }
+    100% {
+      content: "Coffee Addict ";
+    }
+  }
+  header {
+    background-image: url(../images/coffee-and-computer.jpeg);
+    color: black;
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 8px #b085f5;
+  }
+  /*About*/
 
-#aboutSection {
-  /*background-color: #bbb5c3;*/
-  /*color: #ede7f6;*/
-  padding: 1em 0 1em 0;
-}
+  #aboutSection {
+    /*background-color: #bbb5c3;*/
+    /*color: #ede7f6;*/
+    padding: 1em 0 1em 0;
+  }
 
-#aboutSection > div > img {
-  width: 20em;
-  height: 20em;
-  border-radius: 30px;
-  padding: 0.5em;
-  background-color: black;
-  margin: 1em;
-}
-#quote {
-  background-image: url(../images/purple-sunrise.jpg);
-  color: darkgray;
-  text-align: center;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 3em;
-  font-size: 1.5em;
-  text-shadow: 5px 5px 8px black;
-  height: 10em;
-}
-.appInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
+  #aboutSection > div > img {
+    width: 20em;
+    height: 20em;
+    border-radius: 30px;
+    padding: 0.5em;
+    background-color: black;
+    margin: 1em;
+  }
+  #quote {
+    background-image: url(../images/purple-sunrise.jpg);
+    color: darkgray;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 8px black;
+    height: 10em;
+  }
+  .appInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
 
-/*projects*/
-.projectExamples {
-  display: flex;
-  flex-direction: row;
-  padding: 1em;
-}
+  /*projects*/
+  .projectExamples {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+  }
 
-.projects > h3 {
-  text-align: left;
-  padding-left: 1.5em;
-  font-size: 2.5em;
-  margin: 0;
-}
+  .projects > h3 {
+    text-align: left;
+    padding-left: 1.5em;
+    font-size: 2.5em;
+    margin: 0;
+  }
 
-.projects > div > img {
-  width: 16.5em;
-  height: 16.5em;
-  border: 0.25em solid black;
-  margin: 1em;
-  border-radius: 30px;
-}
-.projectExamples > img {
-  width: 14em;
-  height: 14em;
-  border: 0.25em solid black;
-  margin: 1em;
-  border-radius: 30px;
-}
-.projectExamples > img:hover {
-  border: 0.25em solid rgba(134, 40, 147, 0.5);
-  opacity: 0.5;
-}
-/*skills*/
-.iconDiv {
-  position: relative;
-}
+  .projects > div > img {
+    width: 16.5em;
+    height: 16.5em;
+    border: 0.25em solid black;
+    margin: 1em;
+    border-radius: 30px;
+  }
+  .projectExamples > img {
+    width: 14em;
+    height: 14em;
+    border: 0.25em solid black;
+    margin: 1em;
+    border-radius: 30px;
+  }
+  .projectExamples > img:hover {
+    border: 0.25em solid rgba(134, 40, 147, 0.5);
+    opacity: 0.5;
+  }
+  /*skills*/
+  .iconDiv {
+    position: relative;
+  }
 
-.icons {
-  width: 7em;
-  height: 8em;
-  margin: 0 0.2em;
-  opacity: 1;
-  display: block;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
-}
-.skillsNamesDivs {
-  transition: 0.5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
+  .icons {
+    width: 7em;
+    height: 8em;
+    margin: 0 0.2em;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  .skillsNamesDivs {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
 
-.iconDiv:hover .icons {
-  opacity: 0.3;
-}
+  .iconDiv:hover .icons {
+    opacity: 0.3;
+  }
 
-.iconDiv:hover .skillsNamesDivs {
-  opacity: 1;
-}
+  .iconDiv:hover .skillsNamesDivs {
+    opacity: 1;
+  }
 
-#skills {
-  background-image: url(../images/woodBoards.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-shadow: 4px 4px 10px #b085f5;
-  /*padding-top: 2em;*/
-  padding-bottom: 3em;
-}
+  #skills {
+    background-image: url(../images/woodBoards.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 4px 4px 10px #b085f5;
+    /*padding-top: 2em;*/
+    padding-bottom: 3em;
+  }
 
-#skillsIcons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.skillsNames {
-  text-align: center;
-  justify-content: center;
-  background-color: #361e66;
-  margin-left: 0.2em;
-  color: #c3b0e8;
-  text-shadow: 0 0 0;
-  padding: 0.35em;
-}
-/*bottom section*/
-#feelFree {
-  font-size: 2.25em;
-  width: 100%;
-}
-.logos {
-  width: 2em;
-  height: 2em;
-  padding: 0.5em 1em;
-}
+  #skillsIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .skillsNames {
+    text-align: center;
+    justify-content: center;
+    background-color: #361e66;
+    margin-left: 0.2em;
+    color: #c3b0e8;
+    text-shadow: 0 0 0;
+    padding: 0.35em;
+  }
+  /*bottom section*/
+  #feelFree {
+    font-size: 2.25em;
+    width: 100%;
+  }
+  .logos {
+    width: 2em;
+    height: 2em;
+    padding: 0.5em 1em;
+  }
 
-#contact {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-/*#contact > p {
+  #contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /*#contact > p {
   margin: 0.2em;
 }
 #contact > p > a {
   margin: 0.2em;
 }*/
 
-.lg {
-  height: 3em;
-  margin: 0.2em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
+  .lg {
+    height: 3em;
+    margin: 0.2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 /*.lg > p {
   display: none;

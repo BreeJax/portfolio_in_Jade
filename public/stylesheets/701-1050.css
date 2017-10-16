@@ -232,5 +232,11 @@
   .information {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .help {
+    width: 100%;
+    font-size: 1.25em;
+    margin: 0.5em 0;
   }
 }
