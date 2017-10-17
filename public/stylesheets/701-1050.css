@@ -110,13 +110,15 @@
     height: 10em;
   }
   .appInfo {
+    text-align: left;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
-    align-self: center;
   }
-
+  .appInfo > p {
+    margin: 0.5em 0;
+  }
   /*projects*/
   .projectExamples {
     display: flex;
