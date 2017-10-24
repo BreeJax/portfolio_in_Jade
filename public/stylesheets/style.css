@@ -41,6 +41,7 @@ body {
   nav > p {
     padding: 0 0.5em;
     margin: 0.25em;
+    font-size: 0.45em;
   }
   a:hover {
     color: #b085f5;
