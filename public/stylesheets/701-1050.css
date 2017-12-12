@@ -30,7 +30,7 @@
     margin: 0.25em;
   }
   a:hover {
-    color: #b085f5;
+    color: #cfb8f5;
   }
   a {
     color: black;
@@ -77,8 +77,6 @@
   /*About*/
 
   #aboutSection {
-    /*background-color: #bbb5c3;*/
-    /*color: #ede7f6;*/
     padding: 1em 0 1em 0;
   }
   #aboutSection > div {
@@ -189,7 +187,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: 4px 4px 10px #b085f5;
-    /*padding-top: 2em;*/
     padding-bottom: 3em;
   }
 

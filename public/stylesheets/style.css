@@ -1,5 +1,5 @@
 body {
-  background-color: #c3a6f2;
+  background-color: #cfb8f5;
   text-align: center;
   font-family: "Signika", sans-serif;
   padding: 0;
@@ -44,7 +44,7 @@ body {
     font-size: 0.45em;
   }
   a:hover {
-    color: #b085f5;
+    color: #cfb8f5;
   }
   a {
     color: black;
@@ -91,8 +91,6 @@ body {
   /*About*/
 
   #aboutSection {
-    /*background-color: #bbb5c3;*/
-    /*color: #ede7f6;*/
     padding: 1em 0 1em 0;
   }
 
@@ -235,12 +233,6 @@ body {
     justify-content: center;
     align-items: center;
   }
-  /*#contact > p {
-  margin: 0.2em;
-}
-#contact > p > a {
-  margin: 0.2em;
-}*/
 
   .lg {
     height: 3em;
@@ -251,9 +243,3 @@ body {
     justify-content: flex-start;
   }
 }
-/*.lg > p {
-  display: none;
-}*/
-/*.lg > a {
-  font-size: 1.2em;
-}*/
