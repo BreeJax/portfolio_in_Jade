@@ -44,6 +44,9 @@
     content: "Junior Full Stack Developer";
     animation: change 15s infinite;
   }
+  .header > p {
+    font-size: 0.75em;
+  }
   @keyframes change {
     10% {
       content: "Junior Full Stack Developer ";
