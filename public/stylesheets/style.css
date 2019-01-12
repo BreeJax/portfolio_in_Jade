@@ -1,10 +1,39 @@
 body {
-  background-color: #cfb8f5;
+  background-color: #e0ceff;
   text-align: center;
   font-family: "Signika", sans-serif;
   padding: 0;
   margin: 0;
 }
+a:hover {
+  color: #6e3cc4;
+}
+a {
+  color: black;
+}
+/* changing words rotation  */
+.header:after {
+  content: "Junior Full Stack Developer";
+  animation: change 15s infinite;
+}
+@keyframes change {
+  10% {
+    content: "Junior Full Stack Developer ";
+  }
+  25% {
+    content: "Junior Node Developer ";
+  }
+  50% {
+    content: "Junior JavaScript Developer ";
+  }
+  75% {
+    content: "Lifelong Student ";
+  }
+  100% {
+    content: "Coffee Addict ";
+  }
+}
+
 @media screen and (min-width: 1051px) {
   h2 {
     text-transform: uppercase;
@@ -43,18 +72,13 @@ body {
     margin: 0.25em;
     font-size: 0.45em;
   }
-  a:hover {
-    color: #cfb8f5;
-  }
-  a {
-    color: black;
-  }
+
   /*Header*/
   #bj {
     font-size: 4em;
     text-transform: uppercase;
   }
-  .header:after {
+  /* .header:after {
     content: "Junior Full Stack Developer";
     animation: change 15s infinite;
   }
@@ -74,7 +98,7 @@ body {
     100% {
       content: "Coffee Addict ";
     }
-  }
+  } */
   header {
     background-image: url(../images/coffee-and-computer.jpeg);
     color: black;
@@ -195,7 +219,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-shadow: 4px 4px 10px #b085f5;
+    text-shadow: 4px 4px 10px #e0ceff;
     /*padding-top: 2em;*/
     padding-bottom: 3em;
   }
@@ -211,7 +235,7 @@ body {
     justify-content: center;
     background-color: #361e66;
     margin-left: 0.2em;
-    color: #c3b0e8;
+    color: #e0ceff;
     text-shadow: 0 0 0;
     padding: 0.35em;
   }

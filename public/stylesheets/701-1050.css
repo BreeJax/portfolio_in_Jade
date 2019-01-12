@@ -30,18 +30,13 @@
     margin: 0.25em;
     font-size: 0.5em;
   }
-  a:hover {
-    color: #cfb8f5;
-  }
-  a {
-    color: black;
-  }
+
   /*Header*/
   #bj {
     font-size: 3.45em;
     text-transform: uppercase;
   }
-  .header:after {
+  /* .header:after {
     content: "Junior Full Stack Developer";
     animation: change 15s infinite;
   }
@@ -61,7 +56,7 @@
     100% {
       content: "Coffee Addict ";
     }
-  }
+  } */
   header {
     background-image: url(../images/coffee-and-computer.jpeg);
     color: black;
