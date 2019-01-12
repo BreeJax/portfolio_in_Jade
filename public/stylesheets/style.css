@@ -15,6 +15,7 @@ a {
 .header:after {
   content: "Junior Full Stack Developer";
   animation: change 15s infinite;
+  text-shadow: 2px 2px 8px #b085f5;
 }
 @keyframes change {
   10% {
@@ -77,28 +78,9 @@ a {
   #bj {
     font-size: 4em;
     text-transform: uppercase;
+    text-shadow: 2px 2px 8px #b085f5;
   }
-  /* .header:after {
-    content: "Junior Full Stack Developer";
-    animation: change 15s infinite;
-  }
-  @keyframes change {
-    10% {
-      content: "Junior Full Stack Developer ";
-    }
-    25% {
-      content: "Junior Node Developer ";
-    }
-    50% {
-      content: "Junior JavaScript Developer ";
-    }
-    75% {
-      content: "Lifelong Student ";
-    }
-    100% {
-      content: "Coffee Addict ";
-    }
-  } */
+
   header {
     background-image: url(../images/coffee-and-computer.jpeg);
     color: black;
@@ -110,8 +92,8 @@ a {
     padding-top: 3em;
     padding-bottom: 3em;
     font-size: 1.5em;
-    text-shadow: 2px 2px 8px #b085f5;
   }
+
   /*About*/
 
   #aboutSection {
