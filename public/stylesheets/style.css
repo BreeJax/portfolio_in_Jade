@@ -35,6 +35,23 @@ a {
   }
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #8452d3;
+  /* background-color: rgba(77, 43, 145, 0.75); */
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav > p > a:hover {
+  color: #e0ceff;
+}
+
 @media screen and (min-width: 1051px) {
   h2 {
     text-transform: uppercase;
@@ -57,16 +74,7 @@ a {
   }
 
   nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgba(77, 43, 145, 0.75);
-    margin: 0;
     font-size: 1.25em;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
   }
   nav > p {
     padding: 0 0.5em;
@@ -247,5 +255,9 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+  }
+  .information {
+    display: flex;
+    flex-direction: row;
   }
 }
