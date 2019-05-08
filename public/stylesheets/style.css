@@ -49,7 +49,7 @@ nav {
 }
 
 nav > p > a:hover {
-  color: #e0ceff;
+  color: black;
 }
 
 @media screen and (min-width: 1051px) {
@@ -205,7 +205,8 @@ nav > p > a:hover {
   }
 
   #skills {
-    background-image: url(../images/woodBoards.jpeg);
+    background-color: #9971da;
+    /* background-image: url(../images/woodBoards.jpeg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

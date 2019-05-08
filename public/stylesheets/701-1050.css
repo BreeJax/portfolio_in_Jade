@@ -150,7 +150,8 @@
   }
 
   #skills {
-    background-image: url(../images/woodBoards.jpeg);
+    background-color: #9971da;
+    /* background-image: url(../images/woodBoards.jpeg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
