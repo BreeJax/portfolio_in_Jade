@@ -6,7 +6,7 @@
     "start": "node ./bin/www",
     "dev": "node ./bin/www",
     "watch": "nodemon ./bin/www",
-    "hh": "git push heroku master"
+    "hh": "git push && git push heroku master"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
