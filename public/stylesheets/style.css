@@ -5,6 +5,13 @@ body {
   padding: 0;
   margin: 0;
 }
+ul {
+  list-style: none;
+  margin: 0.1em 4em;
+}
+li {
+  font-size: 1.25em;
+}
 a:hover {
   color: #6e3cc4;
 }
@@ -263,4 +270,5 @@ nav > p > a:hover {
     flex-wrap: wrap;
     justify-content: center;
   }
+
 }
